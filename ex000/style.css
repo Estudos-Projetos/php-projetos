@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    color: #e4e4e4;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(10, 10, 10, 1) 99%);
+    font-family: Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.265rem;
+}
+
+section {
+    width: 400px;
+    padding: 1.34rem;
+
+    border: 1px solid #e4e4e4;
+    box-shadow: rgba(3, 0, 41, 0.3) 0px 19px 38px, rgba(6, 5, 23, 0.22) 0px 15px 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+h2 {
+    align-self: center;
+}
+
+input {
+    display: block;
+    width: 90%;
+    height: 28px;
+    margin-bottom: 1.5rem;
+    padding-left: .2rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 1.02rem;
+}
+
+input[type="submit"] {
+    background-color: #e4e4e4;
+    color: #040404;
+    width: 50%;
+    height: 34px;
+    margin: auto;
+    font-size: 1.03rem;
+}
+
+input[type="submit"]:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+
+main {
+    width: 90vw;
+}
+
+main h1 {
+    font-size: 3.4rem;
+}
+
+main a {
+    display: block;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    color: #878585;
+}
